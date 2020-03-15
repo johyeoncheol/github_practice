@@ -69,3 +69,12 @@ git pull origin 주소
 
 ////////////////////////////////////////////////////////////////
 
+others
+
+git add를 했는데 이를 다시 내리고 싶을 때
+git reset .
+
+
+커밋 명령어를 잘못 넣었을때
+git commit -m "Add my_module [Sub]" 를
+git commit --amend
