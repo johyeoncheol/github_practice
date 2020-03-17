@@ -1,0 +1,26 @@
+원격 저장소란?
+네트워크 공간 어딘가에서 원격 저장소로 또한 사용할 수 있는것
+
+1. 원격 저장소 확인
+
+git remote
+
+2. 원격 저장소에 대한 정보를 확인할 수 있다.
+
+git remote show origin
+
+3. 특정한 원격 저장소를 test라는 이름으로 넣고 싶을때 
+
+git remote add test  깃주소
+
+4. -v 옵션으로 전체 목록을 확인할 수 있다.
+
+git remote -v
+
+5. test라는 이름을 temp라는 이름으로 바꾸고 싶을때
+
+git remote rename test temp 
+
+6. 특정 저장소를 삭제하고 싶은경우
+
+git remote rm temp
